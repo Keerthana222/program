@@ -3,9 +3,9 @@
 int  main()
 {char t;
 char str[100]="t";
-int i,j=0,temp;
+int i,j=0;
 printf("\n enter the string");
-grts(str);
+gets(str);
 i=0;j=strlen(str)-1;
 while(i<j)
 {
@@ -14,7 +14,8 @@ str[i]=str[j];
 str[j]=t;
 i++;
 j--;
-printf("\n reverse the string is %s",str)
+}
+printf("\n reverse the string is %s",str);
 return 0;
 }
-}
+
